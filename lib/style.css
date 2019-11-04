@@ -106,7 +106,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 65px;
+  width: auto;
   height: 20px;
   background: #6f42c1;
   border-radius: 3px;

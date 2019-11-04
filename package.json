@@ -1,6 +1,6 @@
 {
   "name": "release-note-html-generator",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "html git tag based release note generator",
   "repository": "sabandemirci/release-note-html-generator",
   "scripts": {
