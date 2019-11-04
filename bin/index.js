@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const path = process.argv[2];
 const exec = require("child_process").exec;
-
+const p = require('path');
 function execShellCommand(cmd) {  
   return new Promise((resolve, reject) => {
     exec(cmd, (error, stdout, stderr) => {
@@ -18,7 +18,8 @@ async function main() {
   var fs = require("fs");
   fs.appendFileSync(file, template);
   fs.writeFileSync(file, '<html><head><meta charset="UTF-8"><head><body>');
-  var style = fs.readFileSync("lib/style.css");
+  var cssPath = p.join(__dirname, '..', 'lib', 'style.css');
+  var style = fs.readFileSync(cssPath);
   fs.appendFileSync(
     file,
     "<style>" +

@@ -1,6 +1,6 @@
 {
   "name": "release-note-html-generator",
-  "version": "1.0.4",
+  "version": "1.0.9",
   "description": "html git tag based release note generator",
   "repository": "sabandemirci/release-note-html-generator",
   "scripts": {
@@ -10,5 +10,10 @@
     "release-note-html-generator": "./bin/index.js"
   },
   "author": "demirci.saban",
-  "license": "ISC"
+  "license": "ISC",
+  "pkg": {
+    "scripts": [
+      "lib/*"
+    ]
+  }
 }
