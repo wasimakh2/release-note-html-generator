@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,600,800,900");
+html {
+  background: #24292e;
+
+  height: 100%;
+}
+p,
+pre,
+code,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+}
+p {
+  font-size: 14px;
+  font-weight: 800;
+}
+a {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6f42c1;
+  text-decoration: none;
+}
+h1 {
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  font-weight: 200;
+  font-size: 3em;
+}
+.header {
+  height: 140px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header2 {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.releaseSelector {
+  height: 90px;
+  color: #fff;
+}
+.releaseSelector2 {
+  color: #dadada;
+}
+.headerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.headerLogoCon {
+  height: 64px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerLogo {
+  width: 128px;
+  height: 128px;
+}
+.headerLinks {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 50px;
+  padding-top: 10px;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+.headerLinksBoxes {
+  padding: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.update {
+  margin-bottom: 65px;
+  width: 100%;
+  height: 100%;
+  grid-column-start: 4;
+  grid-column-end: 10;
+}
+.issue {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.issueButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 20px;
+  background: #6f42c1;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 4px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.issueText {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.issueItem {
+  padding-top: 10px;
+  grid-column-start: 5;
+  grid-column-end: 10;
+  padding-left: 85px;
+  display: flex;
+  align-items: top;
+  justify-content: flex-start;
+}
+.issueItemButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 12px;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 4px;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: "Nunito", sans-serif;
+  font-size: 0.6em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.improved {
+  background: #0366d6;
+}
+.new {
+  background: #28a745;
+}
+.fixed {
+  background: #0366d6;
+}
+.issueItemText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.65);
+}

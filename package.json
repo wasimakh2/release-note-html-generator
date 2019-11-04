@@ -1,10 +1,13 @@
 {
   "name": "release-note-html-generator",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.4",
+  "description": "html git tag based release note generator",
+  "repository": "sabandemirci/release-note-html-generator",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node bin/index.js"
+  },
+  "bin": {
+    "release-note-html-generator": "./bin/index.js"
   },
   "author": "demirci.saban",
   "license": "ISC"
