@@ -1,6 +1,8 @@
 # release-note-html-generator
 **tag** based **git** html release note generator
 
+# install
+`npm i release-note-html-generator -g`
 
 # usage
 
