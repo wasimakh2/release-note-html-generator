@@ -19,4 +19,4 @@
 ## screenshots
 ![GitHub Logo](/screenshots/screenshot.png)
 
-style credits [CodePen.io](https://codepen.io/Metty/pen/xpXOoP)
+style [CodePen.io](https://codepen.io/Metty/pen/xpXOoP)
