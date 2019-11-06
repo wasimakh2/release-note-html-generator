@@ -7,7 +7,6 @@
 # usage
 
 `release-note-html-generator --dir . --projectName ProjectName`
-`release-note-html-generator --dir . --projectName ProjectName`
 
 # options
 |                |desc                           |default                      |
