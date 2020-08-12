@@ -25,7 +25,15 @@ async function main() {
   if (!params.dir) {
     params.dir = ".";
   }
-
+  var template = `
+  <div>
+    <div class=header2>
+       <div class="releaseSelector">
+          <h1> Sürüm Notları ${params.projectName} </h1>
+       </div>
+    </div>
+    <div class="container">
+      `;
   var file = "Changelog.html";
   var fs = require("fs");
   fs.appendFileSync(file, template);
@@ -33,15 +41,7 @@ async function main() {
   var cssPath = p.join(__dirname, "..", "lib", "style.css");
   var style = fs.readFileSync(cssPath);
   fs.appendFileSync(file, "<style>" + style + "</style>");
-  var template = `
-    <div>
-      <div class=header2>
-         <div class="releaseSelector">
-            <h1> Sürüm Notları ${params.projectName} </h1>
-         </div>
-      </div>
-      <div class="container">
-        `;
+  
 
   const tagListsStr = await execShellCommand(
     "git --git-dir " +
